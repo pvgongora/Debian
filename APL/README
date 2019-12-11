@@ -2,3 +2,6 @@
 #It uses fgsl and R Cran to compute different properties
 
 gfortran -O3 -I /usr/include/fgsl/ *.f90 -o ProgramName -lfgsl -ffree-line-length-512
+
+#The program receives a list of virtual packages, a list of provided packages, the package dependencies and 
+#the number associated to every package, as well as a last number to identify the distribution.
