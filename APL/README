@@ -1,0 +1,4 @@
+#Compilation line
+#It uses fgsl and R Cran to compute different properties
+
+gfortran -O3 -I /usr/include/fgsl/ *.f90 -o ProgramName -lfgsl -ffree-line-length-512
