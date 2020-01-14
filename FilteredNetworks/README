@@ -1,1 +1,3 @@
-a
+Networks of all the Debian releases
+Different files contains the directed links between conflicts and dependencies.
+On the other hand, other files give the name of possible provided packages and the list of virtual ones.
