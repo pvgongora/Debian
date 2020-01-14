@@ -1,5 +1,0 @@
-library(igraph)
-g <- read.graph("./graph.txt", format="edgelist")
-diameter(g, directed = TRUE, unconnected = TRUE, weights = NULL)
-average.path.length(g,directed=TRUE, unconnected = TRUE)
-q(save = "no", status = 0, runLast = TRUE)
