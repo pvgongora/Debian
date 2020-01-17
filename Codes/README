@@ -11,3 +11,14 @@ gfortran -O3 -I /usr/include/fgsl/ *.f90 -o ProgramName -lfgsl -ffree-line-lengt
 #For example an execution line can be
 
 ./ProgramName 14Stretch_virtual 14Stretch_provides 14.-stretch_packages 14Stretch_dependencies 14
+
+#Modularity
+#The modularity of the directed networks has been computed by using the algorithm developed by 
+#"Dugué, N., & Perez, A. (2015). Directed Louvain: maximizing modularity in directed networks."
+#https://github.com/nicolasdugue/DirectedLouvain
+
+#Network properties
+#All networks properties have been computed using the iGraph package on R Cran
+#Csardi, G. & Nepusz, T. The igraph software package for complex network research. 
+#InterJournal, Complex Systems CX.18:1695, 1–9 (2006).
+#https://igraph.org/r/
