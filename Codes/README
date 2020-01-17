@@ -5,6 +5,9 @@ gfortran -O3 -I /usr/include/fgsl/ *.f90 -o ProgramName -lfgsl -ffree-line-lengt
 
 #The program receives a list of virtual packages, a list of provided packages, the package dependencies and 
 #the number associated to every package, as well as a last number to identify the distribution.
+
+#After build the Debian network making an election for the possible virtual packages, the algorithm call to R or
+#the different external programs to compute the network properties. 
 #For example an execution line can be
 
 ./ProgramName 14Stretch_virtual 14Stretch_provides 14.-stretch_packages 14Stretch_dependencies 14
